@@ -56,5 +56,12 @@ export const getSettingsSchema = async function ({
       min: 5,
       max: 60,
     },
+    {key: "youtubeApikey",
+        type: "text",
+        label: "YouTube API Key",
+        description: "YouTube Data API v3 key used for music search",
+        placeholder: "Enter your YouTube API key",
+        defaultValue: "",
+    },
   ];
 };
